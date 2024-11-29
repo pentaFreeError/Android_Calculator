@@ -12,7 +12,7 @@ const points = [
   { text: "Rapport GitLab Pages <br> &nbsp;&nbsp;[C'est cette page-là] <br>&nbsp;", validated: true, order:24},
   { text: "Indications de ce qui est fait <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[C'est cette page-là] <br>&nbsp;", validated: true, order:25},
 
-  { text: "Nommage tests", uncertain: true, order:11, detailsHTML: "<p>Les tests se trouvent dans le dossier <a href=\"./app/src/test/java/fr/ensicaen/ecole/calculator/model\">Accéder au dossier</a></p> <br> <p>Pour les tests, j'ai essayé de créer une fonction de test pour chaque cas possible. Par exemple, pour une fonction qui peut avoir deux comportements différents selon l'entrée, prenons l'exemple d'une fonction qui effectue un appel API. Cet appel peut réussir ou échouer, ce qui m'a conduit à définir deux tests distincts :</p> <ul> <li><strong>api_call_works() :</strong> Ce test vérifie que la fonction retourne le résultat attendu avec une API valide et un appel réussi.</li> <li><strong>api_call_does_not_work() : </strong> Ce test vérifie que l'erreur est correctement détectée et/ou gérée en cas d'échec de l'appel API.</li> </ul> <p>(Les appels API pour les tests sont simulés, ce qui permet de reproduire facilement un appel réussi ou un échec.)</p>" },
+  { text: "Nommage tests", uncertain: true, order:11, detailsHTML: "<p>Les tests se trouvent dans le dossier <a href=\"https://github.com/pentaFreeError/Android_Calculator/tree/main/app/src/test/java/fr/ensicaen/ecole/calculator/model\">Accéder au dossier</a></p> <br> <p>Pour les tests, j'ai essayé de créer une fonction de test pour chaque cas possible. Par exemple, pour une fonction qui peut avoir deux comportements différents selon l'entrée, prenons l'exemple d'une fonction qui effectue un appel API. Cet appel peut réussir ou échouer, ce qui m'a conduit à définir deux tests distincts :</p> <ul> <li><strong>api_call_works() :</strong> Ce test vérifie que la fonction retourne le résultat attendu avec une API valide et un appel réussi.</li> <li><strong>api_call_does_not_work() : </strong> Ce test vérifie que l'erreur est correctement détectée et/ou gérée en cas d'échec de l'appel API.</li> </ul> <p>(Les appels API pour les tests sont simulés, ce qui permet de reproduire facilement un appel réussi ou un échec.)</p>" },
 
 
   { text: "Effort fonctionnel", 
@@ -26,11 +26,11 @@ const points = [
   
 
   <br>
-<p>Ce code se trouve dans le fichier <a href="./app/src/main/java/fr/ensicaen/ecole/calculator/model/expression/SimpleCalculator.java">SimpleCalculator.java</a>.</p>
+<p>Ce code se trouve dans le fichier <a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/main/java/fr/ensicaen/ecole/calculator/model/expression/SimpleCalculator.java">SimpleCalculator.java</a>.</p>
 
 
   <br>
-<p>Pour couvrir cette fonction à 100%, il suffit en réalité de réaliser deux tests : l'un avec une expression valide et l'autre avec une expression invalide. Cependant, le fichier <a href="./app/src/test/java/fr/ensicaen/ecole/calculator/model/expression/TestSimpleCalculator.java">TestSimpleCalculator.java</a>, qui fait 180 lignes, teste tous les cas (du moins ceux auxquels j'ai pensé) de construction d'expression pour toutes les opérations possibles, et vérifie si le résultat est correct. Par exemple, je teste les cas limites, comme les opérations avec <code>Double.MAX_VALUE</code>, <code>Double.MIN_VALUE</code>, <code>Integer.MAX_VALUE</code>, <code>Integer.MIN_VALUE</code>, ainsi que la division par zéro.</p>
+<p>Pour couvrir cette fonction à 100%, il suffit en réalité de réaliser deux tests : l'un avec une expression valide et l'autre avec une expression invalide. Cependant, le fichier <a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/test/java/fr/ensicaen/ecole/calculator/model/expression/TestSimpleCalculator.java">TestSimpleCalculator.java</a>, qui fait 180 lignes, teste tous les cas (du moins ceux auxquels j'ai pensé) de construction d'expression pour toutes les opérations possibles, et vérifie si le résultat est correct. Par exemple, je teste les cas limites, comme les opérations avec <code>Double.MAX_VALUE</code>, <code>Double.MIN_VALUE</code>, <code>Integer.MAX_VALUE</code>, <code>Integer.MIN_VALUE</code>, ainsi que la division par zéro.</p>
 
 
   <br>
@@ -106,7 +106,7 @@ public class TestSimpleCalculator {
     completed:true, 
     order: 4,
     detailsHTML:`
-    <p>Pour centraliser les couleurs utilisées dans le projet et faciliter leur réutilisation, ainsi que pour simplifier les modifications ultérieures, j'ai choisi de déclarer ces couleurs dans les ressources Android. Cela permet de changer facilement une couleur en modifiant uniquement la valeur de la constante correspondante, sans avoir à rechercher et modifier toutes les occurrences dans le code. Les couleurs sont définies dans un fichier 'colors.xml', que vous pouvez trouver <a href="./app/src/main/res/values/colors.xml">ici</a>.</p>`},
+    <p>Pour centraliser les couleurs utilisées dans le projet et faciliter leur réutilisation, ainsi que pour simplifier les modifications ultérieures, j'ai choisi de déclarer ces couleurs dans les ressources Android. Cela permet de changer facilement une couleur en modifiant uniquement la valeur de la constante correspondante, sans avoir à rechercher et modifier toutes les occurrences dans le code. Les couleurs sont définies dans un fichier 'colors.xml', que vous pouvez trouver <a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/main/res/values/colors.xml">ici</a>.</p>`},
   
   { text: "Usage pertinent Layout", 
     completed: true, 
@@ -131,7 +131,7 @@ public class TestSimpleCalculator {
     <figcaption>Illustration des trois layouts utilisés.</figcaption>
 </figure>
 
-<p>Le dossier contenant les fichiers de mise en page se trouve <a href="./app/src/main/res/layout">ici</a>.</p>
+<p>Le dossier contenant les fichiers de mise en page se trouve <a href="https://github.com/pentaFreeError/Android_Calculator/tree/main/app/src/main/res/layout">ici</a>.</p>
   `},
 
 
@@ -144,7 +144,7 @@ Avec l'utilisation d'un appel API, dont le temps de réponse peut être imprévi
 <br><br>
 Voici l'implémentation de cette gestion des threads dans le code :
 
-<a href="./app/src/main/java/fr/ensicaen/ecole/calculator/viewmodel/CalculatorViewModel.java#L62">CalculatorViewModel.java</a>
+<a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/main/java/fr/ensicaen/ecole/calculator/viewmodel/CalculatorViewModel.java#L62">CalculatorViewModel.java</a>
 
     `},
 
@@ -200,7 +200,7 @@ Mon application utilise une API pour récupérer les taux de change. Dans le cas
 
 <p>J’ai utilisé le design pattern Proxy, qui a pour objectif de limiter les appels à l’API. Le proxy vérifie d’abord si le résultat de la requête est déjà présent dans le cache. Si ce n’est pas le cas, il consulte la base de données locale. Ce n’est qu’en dernier recours qu’un appel API est effectué, et dans ce cas, le résultat est ajouté à la base de données et au cache pour de futurs usages.</p>
 <br><br>
-<p>L’appel API est réalisé <a href="./app/src/main/java/fr/ensicaen/ecole/calculator/model/exchangeRate/ExchangerRateProxy.java#L69">ici</a></p>
+<p>L’appel API est réalisé <a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/main/java/fr/ensicaen/ecole/calculator/model/exchangeRate/ExchangerRateProxy.java#L69">ici</a></p>
 
     `},
 
@@ -211,7 +211,7 @@ Mon application utilise une API pour récupérer les taux de change. Dans le cas
 <p>De plus, j’ai mis en place un système de détection pour vérifier si le résultat obtenu par le proxy est au bon format. Ainsi, si l’API change la structure de la réponse, l’application ne plante pas.</p>
 
 <br><br>
-<p>Le parsing est réalisé <a href="./app/src/main/java/fr/ensicaen/ecole/calculator/model/exchangeRate/CurrencyRateReader.java#L17">ici</a>.</p>
+<p>Le parsing est réalisé <a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/main/java/fr/ensicaen/ecole/calculator/model/exchangeRate/CurrencyRateReader.java#L17">ici</a>.</p>
 
     `},
 
@@ -220,7 +220,7 @@ Mon application utilise une API pour récupérer les taux de change. Dans le cas
 <p>Pour éviter de faire des appels API à chaque requête de l’utilisateur, j’ai mis en place un système de base de données locale qui stocke les derniers résultats. J’ai utilisé la base de données SQLite d’Android, qui est très bien documentée et facile à utiliser.</p>
 
 <br><br>
-<p>Le code de la base de données se trouve dans le dossier <a href="./app/src/main/java/fr/ensicaen/ecole/calculator/database">database</a>.</p>
+<p>Le code de la base de données se trouve dans le dossier <a href="https://github.com/pentaFreeError/Android_Calculator/tree/main/app/src/main/java/fr/ensicaen/ecole/calculator/database">database</a>.</p>
 
     `},
   { text: "ROOM <br>&nbsp; <br>&nbsp;", completed:false, order:29},
@@ -235,7 +235,7 @@ Mon application utilise une API pour récupérer les taux de change. Dans le cas
 <p>Comme expliqué dans la partie "Analyse de vulnérabilité CVE des dépendances", la bibliothèque Caffeine n’est pas compatible avec Android. J’ai donc utilisé la bibliothèque <code>com.google.common.cache</code>, qui offre des fonctionnalités intéressantes telles que la possibilité de définir une taille maximale pour le cache. Lorsque cette taille est atteinte, les éléments les moins demandés sont automatiquement supprimés. De plus, chaque élément du cache peut avoir une durée de vie limitée, après laquelle il est automatiquement invalidé.</p>
 <br><br>
 
-<p>L’implémentation du cache mémoire est disponible <a href="./app/src/main/java/fr/ensicaen/ecole/calculator/model/exchangeRate/ExchangerRateProxy.java#L23">ici</a>.</p>
+<p>L’implémentation du cache mémoire est disponible <a href="https://github.com/pentaFreeError/Android_Calculator/blob/main/app/src/main/java/fr/ensicaen/ecole/calculator/model/exchangeRate/ExchangerRateProxy.java#L23">ici</a>.</p>
     `},
 
   { text: "Collaboration", completed: true, order:16, detailsHTML:`
