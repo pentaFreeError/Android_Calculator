@@ -66,17 +66,17 @@ If you don't want to build the project yourself, you can find the pre-built `.ap
 ## Screenshots
 
 <p align="center">
-    <img src="/doc/img/calculator.jpg" alt = "Calculator" width="300" height="600"/> 
+    <img src="/docs/doc/img/calculator.jpg" alt = "Calculator" width="300" height="600"/> 
     &nbsp; &nbsp; &nbsp; &nbsp;
-    <img src="/doc/img/example.jpg" width="300" height="600"/>
+    <img src="/docs/doc/img/example.jpg" width="300" height="600"/>
 </p>
 
 <p align="center">
-    <img src="/doc/img/selector.jpg" alt = "Selector" width="300" height="600"/>
+    <img src="docs/doc/img/selector.jpg" alt = "Selector" width="300" height="600"/>
 </p>
 
 <p align="center">
-<img src="/doc/img/land.jpg" alt = "Land Mode" width="600" />
+<img src="docs/doc/img/land.jpg" alt = "Land Mode" width="600" />
 </p>
 
 ## Permissions
