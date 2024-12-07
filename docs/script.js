@@ -350,6 +350,6 @@ points.forEach((point) => {
 });
 
 document.getElementById("downloadBtn").addEventListener("click", () => {
-  const apkUrl = "../release/app-release.apk"; 
+  const apkUrl = "./release/app-release.apk"; 
   window.location.href = apkUrl; 
 });
